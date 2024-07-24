@@ -1,5 +1,9 @@
 import { useState, useEffect } from 'react'
 import HeroSection from './components/HeroSection';
+import Services from './components/Services';
+import Works from './components/Works';
+import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
   const [theme, setTheme ] = useState(null);
@@ -34,7 +38,13 @@ function App() {
 				{theme === 'dark' ? '🌙' : '🌞'}
 			</button>
       <div className='bg-white dark:bg-gray-800 min-h-screen font-inter '>
-        <HeroSection></HeroSection>
+        <div className='max-w-5xl mx-auto w-11/12'>
+          <HeroSection></HeroSection>
+          <Services/>
+          <Works/>
+          <About/>
+          <Footer/>
+        </div>
       </div>
     </>
     
