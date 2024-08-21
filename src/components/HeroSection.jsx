@@ -8,8 +8,7 @@ function HeroSection() {
           Hi, I'm TonyCross
         </h1>
         <p className="text-md md:text-xl max-w-md mb-3 text-gray-500 dark:text-gray-400">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
+          I'm Backend Wed Developer,A motivated and versatile Full-Stack Web Developer with expertise in both frontend and backend technologies. Proficient in creating dynamic, responsive web applications from concept to deployment. 
         </p>
       <a
           href="#works"

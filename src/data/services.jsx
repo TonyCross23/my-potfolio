@@ -7,16 +7,16 @@ export default [
   {
     title: "Front-end",
     icon: <MdWeb className="w-full h-full" />,
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    description: "Detail-oriented and creative Frontend Developer with expertise in HTML, CSS, JavaScript, TypeScript, Bootstrap, Tailwind, Material, React, and Vue.js. Passionate about building responsive, user-friendly interfaces and enhancing user experiences through innovative design and coding techniques.",
   },
   {
     title: "Back-end",
     icon: <FaServer className="w-full h-full" />,
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    description: "Skilled Backend Developer with expertise in Node.js, Laravel, Next.js, MongoDB, MySQL, and Docker. Experienced in designing and maintaining scalable, high-performance server-side applications..",
   },
   {
     title: "Web Developement",
     icon: <VscCode className="w-full h-full" />,
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    description: "Versatile Full-Stack Web Developer with strong expertise in both frontend and backend technologies, including HTML, CSS, JavaScript, TypeScript, React, Vue.js, Node.js, Laravel, Next.js, MongoDB, MySQL, and Docker.",
   },
 ];
