@@ -5,9 +5,9 @@ import works from '../data/works'
 
 function Works() {
   return (
-    <div className='py-12'>
+    <div id='projects' className='py-12'>
      <div className='text-center'>
-     <SectionTitle id='works'>Recent Works</SectionTitle>
+     <SectionTitle id='works'>Projects</SectionTitle>
      </div>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
       {works.map(work => (

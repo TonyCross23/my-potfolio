@@ -5,7 +5,7 @@ import ServiceItem from './ServiceItem';
 
 function Services() {
   return (
-    <div className='py-12'>
+    <div id='service' className='py-12'>
       <div  className='text-center'>
         <SectionTitle>Our Services</SectionTitle>
       </div>

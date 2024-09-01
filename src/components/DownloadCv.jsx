@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from "framer-motion"
 
 const DownloadCv = () => {
   const handleDownload = () => {
@@ -12,10 +13,13 @@ const DownloadCv = () => {
   };
 
   return (
-    <button onClick={handleDownload} className="inline-block px-8 py-3 border-transparent text-base font-medium rounded-md
+    <motion.button
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}
+    onClick={handleDownload} className="inline-block px-8 py-3 border-transparent text-base font-medium rounded-md
     text-white bg-green-500 hover:bg-green-600 md:text-md">
       Download CV
-    </button>
+    </motion.button>
   );
 };
 

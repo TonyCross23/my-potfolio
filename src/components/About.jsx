@@ -1,10 +1,17 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
 import DownloadCv from './DownloadCv'
+import { motion } from "framer-motion"
 
 function About() {
   return (
-    <div className='flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-20'>
+    <motion.div className='flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-20'
+    initial={{ opacity: 0, scale: 0 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{
+     type:"tween",
+     duration:0.3,
+    }}>
       <div className='w-full md:w-6/12'>
         <SectionTitle>About me</SectionTitle>
         <p className='text-md text-gray-600 dark:text-gray-300'>
@@ -15,7 +22,7 @@ function About() {
         <DownloadCv/>
       </div>
      <img src={'https://avatars.githubusercontent.com/u/103016621?v=4'} alt='Tony Cross' className='w-full md:w-6/12 rounded-lg object-cover'/>
-    </div>
+    </motion.div>
   )
 }
 
