@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaServer } from "react-icons/fa";
 import { MdWeb } from "react-icons/md";
 import { VscCode } from "react-icons/vsc";

@@ -1,5 +1,3 @@
-import React from "react";
-
 function WorkItem({ imgUrl, title, tech, workUrl }) {
   return (
     <a

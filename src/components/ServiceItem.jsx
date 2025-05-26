@@ -1,5 +1,3 @@
-import React from 'react'
-
 function ServiceItem({title,icon,description}) {
   return (
     <div className='bg-gray-300 hover:bg-gray-200 dark:bg-gray-600 dark:hover:bg-slate-600 hover:-translate-y-2 transform transition p-5 rounded-md'>
